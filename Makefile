@@ -11,3 +11,6 @@ migrate-down:
 
 docker-up:
 	docker compose --env-file dev.env up -d
+
+sqlc:
+	sqlc generate

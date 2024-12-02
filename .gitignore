@@ -8,3 +8,6 @@
 go.work
 
 dev.env
+internal/tests
+internal/utils
+*_test.go
